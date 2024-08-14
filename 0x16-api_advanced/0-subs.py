@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Module for task 0"""
 
@@ -16,4 +15,3 @@ def number_of_subscribers(subreddit):
         return 0
 
     return sub_info.json().get("data").get("subscribers")
-
